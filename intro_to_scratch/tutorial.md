@@ -10,6 +10,8 @@ In this tutorial, you'll learn how to:
 * Add another animal
 * Make the cat say something when he touches the other animal
 
+Check out a finished version [here](http://scratch.mit.edu/projects/18721000/).
+
 Let's get started!
 
 ## The Basics
