@@ -16,7 +16,7 @@ Let's get started!
 
 ## The Basics
 
-Go to [scratch.mit.edu](scratch.mit.edu) to get started. Click the "Create" link to create a new project. You should see something like this:
+Go to [scratch.mit.edu](http://scratch.mit.edu) to get started. Click the "Create" link to create a new project. You should see something like this:
 
 ![Scratch Default Screen](start.png)
 
