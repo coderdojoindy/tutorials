@@ -7,7 +7,7 @@ Scratch + JavaScript tutorials for Indianapolis Coder Dojo attendees. Feel free 
 
 ## JavaScript
 
-* [Word Scramble Part 1](https://github.com/shipstar/tutorials/blob/master/word_scramble/tutorial.md) (beginner / intermediate)
+* [Word Scramble Part 1](https://github.com/shipstar/tutorials/blob/master/word_scramble_js/tutorial.md) (beginner / intermediate)
 
 If you run into any trouble, please open an issue or submit a pull request and I'll take a look.
 
