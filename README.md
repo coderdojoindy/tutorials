@@ -1,19 +1,19 @@
-Scratch + JavaScript tutorials for Indianapolis Coder Dojo students. Feel free to use them for any purpose that makes the world a better place!
+Scratch + JavaScript tutorials for Indianapolis Coder Dojo attendees. Feel free to use them for any purpose that makes the world a better place!
 
----
-
-# Beginner
+## Beginner
 
 No Scratch experience is required for these.
 
 * [Intro to Scratch](https://github.com/shipstar/tutorials/blob/master/intro_to_scratch/tutorial.md)
 
-# Intermediate
+## Intermediate
 
 These tutorials assume that you're pretty decent at Scratch.
 
 * [Flappy Bird](https://github.com/shipstar/tutorials/blob/master/flappy_bird_scratch/tutorial.md)
 
----
+<br/>
+
+If you run into any trouble, please open an issue or submit a pull request and I'll take a look.
 
 More tutorials coming soon!
