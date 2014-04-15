@@ -210,4 +210,4 @@ Try playing the game. You should be able to win now:
 
 I hope this was a fun introduction to JavaScript! In the next tutorial (coming soon), you'll make the game more interesting by adding multiple words, automatically scrambling them, and starting a new game once they win.
 
-You can see a sneak peak of the more complex game [here](http://jsfiddle.net/shipstar/AWq2t/30/).
+You can see a sneak peak of the more complex game [here](http://jsfiddle.net/shipstar/AWq2t/).
