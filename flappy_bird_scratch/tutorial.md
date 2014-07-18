@@ -9,7 +9,7 @@ In this tutorial, you'll learn how to:
 * Keep score
 * Use messages and variables
 
-This tutorial is a little more advanced. If you're new to Scratch, check out [this one](https://github.com/shipstar/tutorials/blob/master/intro_to_scratch/tutorial.md) first.
+This tutorial is a little more advanced. If you're new to Scratch, check out [this one](https://github.com/coderdojoindy/tutorials/blob/master/intro_to_scratch/tutorial.md) first.
 
 Let's get flapping!
 
