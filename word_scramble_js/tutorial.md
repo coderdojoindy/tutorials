@@ -9,7 +9,7 @@ We're going to use a site called [JSFiddle](http://jsfiddle.net/) that lets us w
 In this tutorial, you'll learn how to:
 
 * Write basic JavaScript
-* Use a library called jQuery that makes JavaScript easier
+* Use libraries called jQuery and jQuery UI that make JavaScript easier
 * Make a simple word scramble game
 
 Let's get started!
