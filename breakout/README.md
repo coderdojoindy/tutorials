@@ -281,7 +281,9 @@ Go back to the stage and add a “when I recieve [brick destroyed]” block and 
 
 **Step 15: Let’s make more bricks.**
 
-Ok, now I think the brick is good enough that we can copy it a bunch of times and arrange them however we want.  Try it.  Right click on your brick, duplicate it. Give your bricks names like brick 1, brick 2, brick 3.  Position them wherever you want on the stage. Notice how you don’t have to modify the code of the brick and they just work when you start the game. Pretty neat.
+Ok, now I think the brick is good enough that we can copy it a bunch of times and arrange them however we want.  Try it.  Right click on your brick, duplicate it. 
+![new sprite](https://raw.githubusercontent.com/coderdojoindy/tutorials/master/breakout/duplicate-block.png)
+Give your bricks names like brick 1, brick 2, brick 3.  Position them wherever you want on the stage. Notice how you don’t have to modify the code of the brick and they just work when you start the game. Pretty neat.
 
 Step 16: Show a victory screen when all of the bricks are destroyed.
 
