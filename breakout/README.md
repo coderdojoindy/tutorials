@@ -206,6 +206,8 @@ number of lives to start with. You could make your game hard by making it 1. Aft
 control block and give your message a name, I think a meaningful name of this message is “launch ball”, you’ll 
 see why next.
 
+![new sprite](https://raw.githubusercontent.com/coderdojoindy/tutorials/master/breakout/broadcast-launch-ball.png)
+
 Next, click on the ball sprite. We want to replace the “When Green Flag clicked” block with a new block, 
 “When I receive “launch ball”. We want to position the ball one time everytime launch ball is called so 
 we’ll move the positioning blocks out of the “if touching color” block and put it at the top, right under 
@@ -249,21 +251,19 @@ Now retest your game. That should be better.
 
 You should take some time to explore some of the other tools and go nuts customizing yours. Maybe add a deriding message or one of encouragement to try again.  Try hiding the ball and the paddle when the game ends. Would you want to broadcast a message for that? Maybe add new sprites to the game over screen that allow you to restart the game? Did you remember to test? Does your game restart correctly with your changes?  It’s up to you, get creative.
 
-Step 11: Let’s add brick.
+**Step 11: Let’s add brick.**
 
 We are going to add a brick for our ball to smash into pieces now. We need to think about how we do this though because we are going to be making copies of this brick and we want to make sure that our one brick works well and that our new bricks will work without having to make specific changes to each one.
 
-
-
 Paint a new sprite, name it brick. Here is what my brick looks like on the stage.
 
+![new sprite](https://raw.githubusercontent.com/coderdojoindy/tutorials/master/breakout/brick-on-stage.png)
 
-
-Step 12: Let’s make the ball bounce off of the brick.
+**Step 12: Let’s make the ball bounce off of the brick.**
 
 The best way we can make the ball bounce off all of the bricks in the same way is to use the color of the bricks.  We need to add another touching color question to the forever loop for the ball. Here we’ll just modify the direction to make it bounce off the brick.  For simplicity’s sake we’ll just point the ball in the direction 180 degrees - the ball’s current direction.  This isn’t the best way to make the ball bounce but it’ll do for now.  Try this one without a picture. Again, grab a mentor or another student when you are done to have them review what you’ve done if you don’t get it.
 
-Step 13: Let’s make the brick disappear when the ball bounces off of it.
+**Step 13: Let’s make the brick disappear when the ball bounces off of it.**
 
 We need to destroy the brick when the ball hits it.  The brick only has to know about one ball for now so we can ask a question about whether the ball is touching the brick.  The brick should start asking that question when it receives the launch ball message. You want to use the “wait until” control block for this and the question that has to be true is “brick touching ball?”. When that happens then you want to hide the brick.
 
@@ -271,7 +271,7 @@ Test your game, make the brick disappear.  Restart the game. Did the brick show 
 
 Again , ask if you get stuck.
 
-Step 14: Let’s make a player score that goes up when the ball hits a brick.
+**Step 14: Let’s make a player score that goes up when the ball hits a brick.**
 
 Whenever a brick destroys itself it should just broadcast a message about that event.  The stage can listen for that message and then increase the player’s score.  Add a player_score variable to stage and make sure that it initializes to 0 when the green flag is clicked.
 
@@ -279,7 +279,7 @@ In the brick script add a block to broadcast a message “brick destroyed” eit
 
 Go back to the stage and add a “when I recieve [brick destroyed]” block and hang off of that incrementing the players score.  I think bricks are worth 100 points each, but you can make it whatever value you want.
 
-Step 15: Let’s make more bricks.
+**Step 15: Let’s make more bricks.**
 
 Ok, now I think the brick is good enough that we can copy it a bunch of times and arrange them however we want.  Try it.  Right click on your brick, duplicate it. Give your bricks names like brick 1, brick 2, brick 3.  Position them wherever you want on the stage. Notice how you don’t have to modify the code of the brick and they just work when you start the game. Pretty neat.
 
@@ -287,24 +287,23 @@ Step 16: Show a victory screen when all of the bricks are destroyed.
 
 We have losing the game accounted for but how do you win?  Well, we need to keep track of destroyed bricks and then show a win screen when the number of bricks left are 0. Add a variable to stage called number of bricks and initialize it to the number of bricks you have on your stage.  When you receive the brick destroyed message, change the bricks_left variable by -1 and then ask the question if bricks_left is equal to 0.  If it is then show a win screen and maybe broadcast a message to stop the ball (and prevent the game over screen from showing up if the player stops hitting the ball.)
 
-Next steps
+**Next steps**
 How would you add another level?  Could you add power ups that drop when the top bricks break?  How would you add a second ball? What changes would that cause you have to make in the rest of your program?  How about making the paddle bigger or smaller?  How about an exploding brick that blows up the bricks around it?
-
-Solution
+
+**Solution**
 
 Stage Scripts
 
+![new sprite](https://raw.githubusercontent.com/coderdojoindy/tutorials/master/breakout/stage-scripts.png)
 
-
-
 Ball Scripts
 
+![new sprite](https://raw.githubusercontent.com/coderdojoindy/tutorials/master/breakout/ball-scripts.png)
 
 Paddle Scripts
 
+![new sprite](https://raw.githubusercontent.com/coderdojoindy/tutorials/master/breakout/paddle-scripts.png)
 
 Brick Scripts
 
-
-Stage at the beginning of a new game and Sprite Library
-
+![new sprite](https://raw.githubusercontent.com/coderdojoindy/tutorials/master/breakout/brick-scripts.png)
