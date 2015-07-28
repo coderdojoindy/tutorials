@@ -4,6 +4,7 @@ Scratch + JavaScript tutorials for Indianapolis Coder Dojo attendees. Feel free 
 
 * [Intro to Scratch](https://github.com/coderdojoindy/tutorials/blob/master/intro_to_scratch/tutorial.md) (beginner)
 * [Fortune Cookie Clicker](https://github.com/coderdojoindy/tutorials/blob/master/fortune_cookie_clicker/tutorial.md) (beginner)
+* [Breakout](https://github.com/coderdojoindy/tutorials/blob/master/breakout/README.md)
 * [Flappy Bird](https://github.com/coderdojoindy/tutorials/blob/master/flappy_bird_scratch/tutorial.md) (intermediate)
 
 ## JavaScript
